@@ -1,0 +1,11 @@
+How to Increase Import Size Limit in phpMyAdmin using Xampp server?
+
+#changes into the php.ini file
+
+post_max_size = 800M 
+upload_max_filesize = 800M 
+max_execution_time = 5000 
+max_input_time = 5000 
+memory_limit = 1000M 
+
+now restart for the changes to take effect
